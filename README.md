@@ -38,6 +38,30 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset
+| Column               | Description                                                                                         | 
+|----------------------|-----------------------------------------------------------------------------------------------------| 
+| deal_ID              | Unique ID for each row representing a deal                                                          | 
+| deal_type            | String indicating reciprocity type                                                                  | 
+| framework            | String indicating if deal is part of larger framework agreement                                      | 
+| reciprocal_deal     | If deal is reciprocal, numeric value indicating matching reciprocal deal                             | 
+| collaterepoal       | String indicating type of collateral underlying each deal                                           | 
+| ISO_source           | Source country ISO 3166-1 (alpha-3) country code                                                    | 
+| source_country      | Source country name                                                                                | 
+| ISO_recipient       | Recipient country ISO 3166-1 (alpha-3) country code                                                 | 
+| recipient_country   | Recipient country name                                                                             | 
+| start_date           | Agreement signature date or press release date                                                      | 
+| end_date             | Agreed expiration date as mentioned in press release                                                | 
+| existence_previous_deal | Indicator variable for whether a deal of any kind existed between the two countries in the past | 
+| deal_action         | String variable indicating the role of each deal within a deal chain                                 | 
+| previous_deal       | (Backward-looking) if deal_action renew or reactivate,
+previous_deal indicates prior deal of identical characteristics being renewed or reactivated | 
+| currency_of_deal    | Agreed currency of the deal (ISO4217 standard abbreviation)                                          | 
+| source_currency     | Source central bank currency (ISO4217 standard abbreviation)                                         | 
+| source_currency_deal | Dummy variable                                                                                     | 
+| deal_currency_amount | Quoted maximum amount agreed on in currency of the deal; registered in billion as mentioned in press release | 
+| USD_amount          | If deal amount mentioned in USD in press release, then USD maximum amount, otherwise NA            | 
+| unlimited           | Indicator variable for whether deal amount was unlimited                                             | 
+| initiative          | Initiative under which deal was agreed (if any)                                                      | 
 
 For more detailed analysis and data, here is a link to the dataset: 
 ## Updates

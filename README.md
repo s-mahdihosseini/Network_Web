@@ -32,8 +32,8 @@ the European Central Bank (ECB) has a mix in between.
 - This paper provides a comprehensive dataset of central bank cross-border liquidity
 lines at the agreement level: by date and duration (2000-23), by source currency (USD,
 EUR, RMB, others), by type (bilateral or multilateral), by funding structure (pooled or
-by individual bank), by counterparties (central banks), and by some terms (like the collateral). This dataset was collated from public sources, and is \textbf{freely available for other
-researchers to use}. We use these data to establish three novel sets of facts.
+by individual bank), by counterparties (central banks), and by some terms (like the collateral). This dataset was collated from public sources, and is **freely available for other
+researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset

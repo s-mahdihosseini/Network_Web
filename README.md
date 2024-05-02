@@ -2,7 +2,7 @@
 
 - [Draft,coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
 
-![Description of the image](figw_USdensities.png)
+![Description of the image](map_temp_2020.pdf)
 
 ## Authors:
 

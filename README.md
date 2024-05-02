@@ -40,7 +40,7 @@ researchers to use**. We use these data to establish three novel sets of facts.
 ## Dataset
 | Column               | Description                                              | 
 |----------------------|----------------------------------------------------------| 
-| deal_ID              | Unique ID for each row representing a deal                                                          | 
+| deal_ID              | Unique ID for each row representing a deal               | 
 | deal_type            | String indicating reciprocity type                                                                  | 
 | framework            | String indicating if deal is part of larger framework agreement                                      | 
 | reciprocal_deal     | If deal is reciprocal, numeric value indicating matching reciprocal deal                             | 

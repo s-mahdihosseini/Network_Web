@@ -141,7 +141,7 @@ Variable Description:
 ## Figures
 
 
-![Description of the image](combined_TotalConnections.png)  -[Data]()
+[Description of the image](combined_TotalConnections.png)  -[Data]()
 ![Description of the image](combined_TotalConnections_bycurrency.png) -[Data]()
 ![Description of the image](2020.png) -[Data]()
 

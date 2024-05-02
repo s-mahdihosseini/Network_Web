@@ -143,7 +143,9 @@ Variable Description:
 ## Figures
 
 ## The evolution over time of the liquidity lines
-![Description of the image](ee.png)  -[Data]()
+
+![Description of the image](Map_Network.png)
+
 
 ![Description of the image](combined_TotalConnections.png)  -[Data]()
 

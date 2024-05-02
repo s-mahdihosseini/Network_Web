@@ -39,6 +39,12 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 ## Dataset
 
+Download:
+- [Excel](liquidity_lines_current_v19_upload.xlsx)
+- [csv](liquidity_lines_current_v19_upload.csv)
+- [dta](data.dta)
+
+Variable Description:
 
 <table>
   <tr style="background-color: #d4f4d3;">

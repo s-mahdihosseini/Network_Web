@@ -2,7 +2,7 @@
 
 - [Draft,coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
 
-![Description of the image](Map_Network.png)
+[Description of the image](Map_Network.png)
 
 ## Authors:
 
@@ -38,8 +38,7 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 ## Dataset
 
-For more detailed analysis and data, here is a link to the dataset: [Dataset](figure6us.csv)
-
+For more detailed analysis and data, here is a link to the dataset: 
 ## Updates
 
 This research is updated regularly to reflect the latest data and analysis.

@@ -2,7 +2,7 @@
 
 - [Draft,coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
 
-[Description of the image](Map_Network.png)
+![Description of the image](Map_Network.png)
 
 ## Authors:
 

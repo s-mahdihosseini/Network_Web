@@ -38,23 +38,34 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      border: 2px solid #68b684;
+    }
+    th, td {
+      border: 2px solid #68b684;
+      padding: 8px;
+    }
+    th {
+      background-color: #d4f4d3;
+    }
+    tr:nth-child(even) {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
 
-<table style="border-collapse: collapse; width: 100%; max-width: 800px; border: 2px solid #68b684;">
-  <tr style="background-color: #d4f4d3;">
-    <th style="border: 2px solid #68b684; padding: 8px;">Column</th>
-    <th style="border: 2px solid #68b684; padding: 8px;">Description</th>
-  </tr>
-  <tr>
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_ID</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Unique ID for each row representing a deal</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_type</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">String indicating reciprocity type</td>
-  </tr>
-  <!-- Add more rows as needed -->
-</table>
-
+<table>
   <tr>
     <th>Column</th>
     <th>Description</th>
@@ -144,6 +155,9 @@ researchers to use**. We use these data to establish three novel sets of facts.
     <td>Initiative under which deal was agreed (if any)</td>
   </tr>
 </table>
+
+</body>
+</html>
 
 
 For more detailed analysis and data, here is a link to the dataset: 

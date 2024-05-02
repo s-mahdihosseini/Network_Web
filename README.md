@@ -1,6 +1,6 @@
 # Dataset forThe Global Network of Liquidity Lines
 
-- [Draft,coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
+- [Draft, coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
 
 ![Description of the image](figw_USdensities.png)
 ![Description of the image](Map_Network.png)
@@ -47,7 +47,7 @@ This research is updated regularly to reflect the latest data and analysis.
 
 ## Acknowledgment
 
-We thank Marina Fleciano, and other people who helped!
+We thank Marina Feliciano, and other people who helped!
 
 ---
 

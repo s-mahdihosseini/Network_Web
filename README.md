@@ -146,7 +146,7 @@ Variable Description:
 
 ![Description of the image](Map_Network.png)
 
-
+hgj
 ![Description of the image](combined_TotalConnections.png) 
 
 ## The evolution over time of the liquidity lines, by currency

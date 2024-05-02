@@ -38,29 +38,97 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset
-| Column               | Description                                              | 
-|----------------------|----------------------------------------------------------| 
-| deal_ID              | Unique ID for each row representing a deal               | 
-| deal_type            | String indicating reciprocity type                                                                  | 
-| framework            | String indicating if deal is part of larger framework agreement                                      | 
-| reciprocal_deal     | If deal is reciprocal, numeric value indicating matching reciprocal deal                             | 
-| collaterepoal       | String indicating type of collateral underlying each deal                                           | 
-| ISO_source           | Source country ISO 3166-1 (alpha-3) country code                                                    | 
-| source_country      | Source country name                                                                                | 
-| ISO_recipient       | Recipient country ISO 3166-1 (alpha-3) country code                                                 | 
-| recipient_country   | Recipient country name                                                                             | 
-| start_date           | Agreement signature date or press release date                                                      | 
-| end_date             | Agreed expiration date as mentioned in press release                                                | 
-| existence_previous_deal | Indicator variable for whether a deal of any kind existed between the two countries in the past | 
-| deal_action         | String variable indicating the role of each deal within a deal chain                                 | 
-| previous_deal       | (Backward-looking) if deal_action renew or reactivate, previous_deal indicates prior deal of identical characteristics being renewed or reactivated | 
-| currency_of_deal    | Agreed currency of the deal (ISO4217 standard abbreviation)                                          | 
-| source_currency     | Source central bank currency (ISO4217 standard abbreviation)                                         | 
-| source_currency_deal | Dummy variable                                                                                     | 
-| deal_currency_amount | Quoted maximum amount agreed on in currency of the deal; registered in billion as mentioned in press release | 
-| USD_amount          | If deal amount mentioned in USD in press release, then USD maximum amount, otherwise NA            | 
-| unlimited           | Indicator variable for whether deal amount was unlimited                                             | 
-| initiative          | Initiative under which deal was agreed (if any)                                                      | 
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>deal_ID</code></td>
+    <td>Unique ID for each row representing a deal</td>
+  </tr>
+  <tr>
+    <td><code>deal_type</code></td>
+    <td>String indicating reciprocity type</td>
+  </tr>
+  <tr>
+    <td><code>framework</code></td>
+    <td>String indicating if deal is part of larger framework agreement</td>
+  </tr>
+  <tr>
+    <td><code>reciprocal_deal</code></td>
+    <td>If deal is reciprocal, numeric value indicating matching reciprocal deal</td>
+  </tr>
+  <tr>
+    <td><code>collaterepoal</code></td>
+    <td>String indicating type of collateral underlying each deal</td>
+  </tr>
+  <tr>
+    <td><code>ISO_source</code></td>
+    <td>Source country ISO 3166-1 (alpha-3) country code</td>
+  </tr>
+  <tr>
+    <td><code>source_country</code></td>
+    <td>Source country name</td>
+  </tr>
+  <tr>
+    <td><code>ISO_recipient</code></td>
+    <td>Recipient country ISO 3166-1 (alpha-3) country code</td>
+  </tr>
+  <tr>
+    <td><code>recipient_country</code></td>
+    <td>Recipient country name</td>
+  </tr>
+  <tr>
+    <td><code>start_date</code></td>
+    <td>Agreement signature date or press release date</td>
+  </tr>
+  <tr>
+    <td><code>end_date</code></td>
+    <td>Agreed expiration date as mentioned in press release</td>
+  </tr>
+  <tr>
+    <td><code>existence_previous_deal</code></td>
+    <td>Indicator variable for whether a deal of any kind existed between the two countries in the past</td>
+  </tr>
+  <tr>
+    <td><code>deal_action</code></td>
+    <td>String variable indicating the role of each deal within a deal chain</td>
+  </tr>
+  <tr>
+    <td><code>previous_deal</code></td>
+    <td>(Backward-looking) if deal_action renew or reactivate, previous_deal indicates prior deal of identical characteristics being renewed or reactivated</td>
+  </tr>
+  <tr>
+    <td><code>currency_of_deal</code></td>
+    <td>Agreed currency of the deal (ISO4217 standard abbreviation)</td>
+  </tr>
+  <tr>
+    <td><code>source_currency</code></td>
+    <td>Source central bank currency (ISO4217 standard abbreviation)</td>
+  </tr>
+  <tr>
+    <td><code>source_currency_deal</code></td>
+    <td>Dummy variable</td>
+  </tr>
+  <tr>
+    <td><code>deal_currency_amount</code></td>
+    <td>Quoted maximum amount agreed on in currency of the deal; registered in billion as mentioned in press release</td>
+  </tr>
+  <tr>
+    <td><code>USD_amount</code></td>
+    <td>If deal amount mentioned in USD in press release, then USD maximum amount, otherwise NA</td>
+  </tr>
+  <tr>
+    <td><code>unlimited</code></td>
+    <td>Indicator variable for whether deal amount was unlimited</td>
+  </tr>
+  <tr>
+    <td><code>initiative</code></td>
+    <td>Initiative under which deal was agreed (if any)</td>
+  </tr>
+</table>
+
 
 For more detailed analysis and data, here is a link to the dataset: 
 ## Updates

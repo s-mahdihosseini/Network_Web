@@ -38,8 +38,8 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset
-| Column               | Description                                                                                         | 
-|----------------------|-----------------------------------------------------------------------------------------------------| 
+| Column               | Description                                                                      | 
+|----------------------|----------------------------------------------------------------------------------| 
 | deal_ID              | Unique ID for each row representing a deal                                                          | 
 | deal_type            | String indicating reciprocity type                                                                  | 
 | framework            | String indicating if deal is part of larger framework agreement                                      | 
@@ -53,8 +53,7 @@ researchers to use**. We use these data to establish three novel sets of facts.
 | end_date             | Agreed expiration date as mentioned in press release                                                | 
 | existence_previous_deal | Indicator variable for whether a deal of any kind existed between the two countries in the past | 
 | deal_action         | String variable indicating the role of each deal within a deal chain                                 | 
-| previous_deal       | (Backward-looking) if deal_action renew or reactivate,
-previous_deal indicates prior deal of identical characteristics being renewed or reactivated | 
+| previous_deal       | (Backward-looking) if deal_action renew or reactivate, previous_deal indicates prior deal of identical characteristics being renewed or reactivated | 
 | currency_of_deal    | Agreed currency of the deal (ISO4217 standard abbreviation)                                          | 
 | source_currency     | Source central bank currency (ISO4217 standard abbreviation)                                         | 
 | source_currency_deal | Dummy variable                                                                                     | 

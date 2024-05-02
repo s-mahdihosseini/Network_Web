@@ -1,4 +1,4 @@
-# Dataset for ${\color{red}\text{The Global Network of Liquidity Lines}}$
+# Dataset forThe Global Network of Liquidity Lines
 
 - [Draft,coming soon!](https://personal.lse.ac.uk/reisr/papers/99-infdis.pdf)
 

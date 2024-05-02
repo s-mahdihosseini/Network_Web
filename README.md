@@ -38,126 +38,98 @@ researchers to use**. We use these data to establish three novel sets of facts.
 
 
 ## Dataset
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Styled Table</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      max-width: 800px;
-      border: 2px solid #68b684;
-    }
-    th, td {
-      border: 2px solid #68b684;
-      padding: 8px;
-    }
-    th {
-      background-color: #d4f4d3;
-    }
-    tr:nth-child(even) {
-      background-color: #f5f5f5;
-    }
-  </style>
-</head>
-<body>
+
 
 <table>
-  <tr>
-    <th>Column</th>
-    <th>Description</th>
+  <tr style="background-color: #d4f4d3;">
+    <th style="border: 2px solid #68b684; padding: 8px;">Column</th>
+    <th style="border: 2px solid #68b684; padding: 8px;">Description</th>
   </tr>
-  <tr>
-    <td><code>deal_ID</code></td>
-    <td>Unique ID for each row representing a deal</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_ID</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Unique ID for each row representing a deal</td>
   </tr>
-  <tr>
-    <td><code>deal_type</code></td>
-    <td>String indicating reciprocity type</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_type</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">String indicating reciprocity type</td>
   </tr>
-  <tr>
-    <td><code>framework</code></td>
-    <td>String indicating if deal is part of larger framework agreement</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>framework</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">String indicating if deal is part of larger framework agreement</td>
   </tr>
-  <tr>
-    <td><code>reciprocal_deal</code></td>
-    <td>If deal is reciprocal, numeric value indicating matching reciprocal deal</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reciprocal_deal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">If deal is reciprocal, numeric value indicating matching reciprocal deal</td>
   </tr>
-  <tr>
-    <td><code>collaterepoal</code></td>
-    <td>String indicating type of collateral underlying each deal</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>collaterepoal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">String indicating type of collateral underlying each deal</td>
   </tr>
-  <tr>
-    <td><code>ISO_source</code></td>
-    <td>Source country ISO 3166-1 (alpha-3) country code</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>ISO_source</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Source country ISO 3166-1 (alpha-3) country code</td>
   </tr>
-  <tr>
-    <td><code>source_country</code></td>
-    <td>Source country name</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>source_country</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Source country name</td>
   </tr>
-  <tr>
-    <td><code>ISO_recipient</code></td>
-    <td>Recipient country ISO 3166-1 (alpha-3) country code</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>ISO_recipient</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Recipient country ISO 3166-1 (alpha-3) country code</td>
   </tr>
-  <tr>
-    <td><code>recipient_country</code></td>
-    <td>Recipient country name</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>recipient_country</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Recipient country name</td>
   </tr>
-  <tr>
-    <td><code>start_date</code></td>
-    <td>Agreement signature date or press release date</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>start_date</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Agreement signature date or press release date</td>
   </tr>
-  <tr>
-    <td><code>end_date</code></td>
-    <td>Agreed expiration date as mentioned in press release</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>end_date</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Agreed expiration date as mentioned in press release</td>
   </tr>
-  <tr>
-    <td><code>existence_previous_deal</code></td>
-    <td>Indicator variable for whether a deal of any kind existed between the two countries in the past</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>existence_previous_deal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Indicator variable for whether a deal of any kind existed between the two countries in the past</td>
   </tr>
-  <tr>
-    <td><code>deal_action</code></td>
-    <td>String variable indicating the role of each deal within a deal chain</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_action</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">String variable indicating the role of each deal within a deal chain</td>
   </tr>
-  <tr>
-    <td><code>previous_deal</code></td>
-    <td>(Backward-looking) if deal_action renew or reactivate, previous_deal indicates prior deal of identical characteristics being renewed or reactivated</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>previous_deal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">(Backward-looking) if deal_action renew or reactivate, previous_deal indicates prior deal of identical characteristics being renewed or reactivated</td>
   </tr>
-  <tr>
-    <td><code>currency_of_deal</code></td>
-    <td>Agreed currency of the deal (ISO4217 standard abbreviation)</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>currency_of_deal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Agreed currency of the deal (ISO4217 standard abbreviation)</td>
   </tr>
-  <tr>
-    <td><code>source_currency</code></td>
-    <td>Source central bank currency (ISO4217 standard abbreviation)</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>source_currency</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Source central bank currency (ISO4217 standard abbreviation)</td>
   </tr>
-  <tr>
-    <td><code>source_currency_deal</code></td>
-    <td>Dummy variable</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>source_currency_deal</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Dummy variable</td>
   </tr>
-  <tr>
-    <td><code>deal_currency_amount</code></td>
-    <td>Quoted maximum amount agreed on in currency of the deal; registered in billion as mentioned in press release</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>deal_currency_amount</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Quoted maximum amount agreed on in currency of the deal; registered in billion as mentioned in press release</td>
   </tr>
-  <tr>
-    <td><code>USD_amount</code></td>
-    <td>If deal amount mentioned in USD in press release, then USD maximum amount, otherwise NA</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>USD_amount</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">If deal amount mentioned in USD in press release, then USD maximum amount, otherwise NA</td>
   </tr>
-  <tr>
-    <td><code>unlimited</code></td>
-    <td>Indicator variable for whether deal amount was unlimited</td>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>unlimited</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Indicator variable for whether deal amount was unlimited</td>
   </tr>
-  <tr>
-    <td><code>initiative</code></td>
-    <td>Initiative under which deal was agreed (if any)</td>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>initiative</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Initiative under which deal was agreed (if any)</td>
   </tr>
 </table>
-
-</body>
-</html>
 
 
 For more detailed analysis and data, here is a link to the dataset: 

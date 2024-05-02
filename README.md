@@ -138,7 +138,15 @@ Variable Description:
 </table>
 
 
-For more detailed analysis and data, here is a link to the dataset: 
+## Figures
+
+
+![Description of the image](combined_TotalConnections.png)  -[Data]()
+![Description of the image](combined_TotalConnections_bycurrency.png) -[Data]()
+![Description of the image](2020.png) -[Data]()
+
+
+
 ## Updates
 
 This research is updated regularly to reflect the latest data and analysis.

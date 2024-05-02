@@ -147,16 +147,16 @@ Variable Description:
 ![Description of the image](Map_Network.png)
 
 
-![Description of the image](combined_TotalConnections.png)  -[Data]()
-
+![Description of the image](combined_TotalConnections.png) 
 
 ## The evolution over time of the liquidity lines, by currency
 
-![Description of the image](combined_TotalConnections_bycurrency.png) -[Data]()
+![Description of the image](combined_TotalConnections_bycurrency.png) 
 
 ## Geographical coverage of the liquidity lines
 
-![Description of the image](2020.png) -[Data]()
+![Description of the image](2020.png)
+
 
 
 
